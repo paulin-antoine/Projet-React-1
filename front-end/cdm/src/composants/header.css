@@ -1,0 +1,11 @@
+#header-block {
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+     background-color: silver;
+}
+
+img {
+    height: 110px;
+}
