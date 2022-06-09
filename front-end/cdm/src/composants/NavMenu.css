@@ -1,0 +1,24 @@
+.Nav-menu {
+    display: flex;
+    height: 30px;
+    background-color: #FF5A3F;   
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+ul li {
+    display: inline;
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+}
+
+ul li a {
+    color: white;
+}
+

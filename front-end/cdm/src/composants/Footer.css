@@ -1,0 +1,19 @@
+#footer-block {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DFDFDF;
+}
+
+.copyright {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0;
+    border-top: solid gray 2px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: gray;
+}

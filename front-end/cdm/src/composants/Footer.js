@@ -1,11 +1,13 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <>
-      <h1>Hello</h1>
-      <p>Footer</p>
-    </>
+    <div id="footer-block">
+      <div className="copyright">
+        &copy; copyright - CDM - Le coin du métallier
+      </div>
+    </div>
   );
 }
 

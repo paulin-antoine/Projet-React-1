@@ -3,7 +3,7 @@
     height: 20vh;
     justify-content: space-between;
     align-items: center;
-     background-color: #DFDFDF;
+    background-color: #DFDFDF;
 }
 
 img {
@@ -61,6 +61,19 @@ span {
     border-radius: 50px 0 0 50px;
 }
 
+.header-input:hover {
+   /*box-shadow: 0px 3px 0px #FF5A3F;*/
+   border: solid #FF5A3F 4px;
+   border-right: none;
+   
+}
+
+.header-input:hover ~ .header-button {
+    /* box-shadow: 0px 3px 0px #FF5A3F; */
+    border: solid #FF5A3F 4px;
+    border-left: none;
+}
+
 .header-input:focus {
     outline: none;
 }
@@ -72,4 +85,6 @@ span {
     border-radius: 0 50px 50px 0;
     background-color: white;
 }
+
+
 
