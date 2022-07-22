@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./NavMenu.css";
 
 function NavMenu() {
@@ -6,7 +8,7 @@ function NavMenu() {
     <div className="Nav-menu">
       <ul>
         <li>
-          <a href="/">Outils</a>
+          <Link to="/products">Outils</Link>
         </li>
         <li>|</li>
         <li>
