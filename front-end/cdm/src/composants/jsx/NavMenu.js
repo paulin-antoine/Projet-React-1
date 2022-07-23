@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./NavMenu.css";
+import "../style/NavMenu.css";
 
 function NavMenu() {
   return (

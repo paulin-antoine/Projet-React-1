@@ -1,10 +1,10 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import "./SlideShowImage.css";
-import meuleuse from "../images/meuleuse.jpg";
-import poste from "../images/poste.jpg";
-import tube from "../images/tube.jpg";
+import "../style/SlideShowImage.css";
+import meuleuse from "../../images/meuleuse.jpg";
+import poste from "../../images/poste.jpg";
+import tube from "../../images/tube.jpg";
 
 const properties = {
   duration: 5000,

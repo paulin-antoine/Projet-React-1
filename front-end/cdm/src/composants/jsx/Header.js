@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "../style/Header.css";
 import SearchBar from "./SearchBar";
 
 function Header(props) {
