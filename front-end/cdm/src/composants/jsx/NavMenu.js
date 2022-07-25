@@ -8,19 +8,19 @@ function NavMenu() {
     <div className="Nav-menu">
       <ul>
         <li>
-          <Link to="/products">Outils</Link>
+          <Link to="/outils">Outils</Link>
         </li>
         <li>|</li>
         <li>
-          <a href="/">Machines</a>
+          <Link to="/machines">Machines</Link>
         </li>
         <li>|</li>
         <li>
-          <a href="/">Acier</a>
+          <Link to="/acier">Acier</Link>
         </li>
         <li>|</li>
         <li>
-          <a href="/">Soudure</a>
+          <a href="/soudure">Soudure</a>
         </li>
       </ul>
     </div>

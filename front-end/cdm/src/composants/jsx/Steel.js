@@ -1,13 +1,13 @@
 import React from "react";
 import "../style/ProductsList.css";
-import data from "../../data/Tools.js";
+import data from "../../data/Steel.js";
 
-function Tools() {
+function Steel() {
   return (
     <div className="row-center">
       {data.products.map((product) => (
         <div key={product._id} className="card">
-          <a href={`/outils/${product._id}`}>
+          <a href={`/acier/${product._id}`}>
             <img src={product.image} alt={product.name}></img>
           </a>
           <div className="card-body">
@@ -39,4 +39,4 @@ function Tools() {
   );
 }
 
-export default Tools;
+export default Steel;

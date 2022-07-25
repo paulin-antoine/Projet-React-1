@@ -1,8 +1,8 @@
 import React from "react";
 import "../style/ProductsList.css";
-import data from "../../data/Tools.js";
+import data from "../../data/Welding.js";
 
-function Tools() {
+function Welding() {
   return (
     <div className="row-center">
       {data.products.map((product) => (
@@ -39,4 +39,4 @@ function Tools() {
   );
 }
 
-export default Tools;
+export default Welding;
