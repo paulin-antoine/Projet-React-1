@@ -12,8 +12,9 @@ function Steel() {
           </a>
           <div className="card-body">
             <a href="product.html">
-              <h2>{product.name}</h2>
+              <h2 className="product-title">{product.name}</h2>
             </a>
+            <div className="price">{product.price.toFixed(2)} €</div>
             <div className="rating">
               <span>
                 <i className="fa fa-star"></i>
@@ -30,7 +31,6 @@ function Steel() {
               <span>
                 <i className="fa fa-star"></i>
               </span>
-              <div className="price">{product.price.toFixed(2)} €</div>
             </div>
           </div>
         </div>
