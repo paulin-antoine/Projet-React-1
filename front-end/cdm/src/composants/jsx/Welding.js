@@ -8,7 +8,11 @@ function Welding() {
       {data.products.map((product) => (
         <div key={product._id} className="card">
           <a href={`/outils/${product._id}`}>
-            <img src={product.image} alt={product.name}></img>
+            <img
+              src={product.image}
+              alt={product.name}
+              className="img-product"
+            ></img>
           </a>
           <div className="card-body">
             <a href="product.html">

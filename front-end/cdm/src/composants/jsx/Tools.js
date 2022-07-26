@@ -8,7 +8,11 @@ function Tools() {
       {data.products.map((product) => (
         <div key={product._id} className="card">
           <a href={`/outils/${product._id}`}>
-            <img src={product.image} alt={product.name}></img>
+            <img
+              src={product.image}
+              alt={product.name}
+              className="img-product"
+            ></img>
           </a>
           <div className="card-body">
             <a href="product.html">
@@ -26,10 +30,10 @@ function Tools() {
                 <i className="fa fa-star"></i>
               </span>
               <span>
-                <i className="fa fa-star"></i>
+                <i className="fa fa-star fa-1x"></i>
               </span>
               <span>
-                <i className="fa fa-star"></i>
+                <i className="fa fa-star fa-1x"></i>
               </span>
             </div>
           </div>

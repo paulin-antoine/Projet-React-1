@@ -7,6 +7,7 @@ import Footer from "./composants/jsx/Footer.js";
 import NavMenu from "./composants/jsx/NavMenu.js";
 import SlideShow from "./composants/jsx/SlideShowImage.js";
 import SocialNetwork from "./composants/jsx/SocialNetwork";
+import Quotation from "./composants/jsx/Quotation.js";
 import Steel from "./composants/jsx/Steel.js";
 import Welding from "./composants/jsx/Welding.js";
 import "./App.css";
@@ -24,7 +25,10 @@ class App extends Component {
           <Route path="/acier" element={<Steel />} />
           <Route path="/soudure" element={<Welding />} />
         </Routes>
-        <SocialNetwork />
+        <div>
+          <SocialNetwork />
+          <Quotation />
+        </div>
         <Footer />
       </>
     );
